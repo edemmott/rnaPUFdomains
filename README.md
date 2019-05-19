@@ -1,5 +1,5 @@
 # rnaPUFdomains
-Perl script for designing pumilio domains to bind specific RNA targets of interest. This is based around the sequences from the PUF assembly kit availible from Addgene ([link](https://www.addgene.org/kits/puf-assembly-kit/)). This was described in the paper:
+Perl script for designing PUF domains to bind specific RNA targets of interest. This is based around the sequences from the PUF assembly kit availible from Addgene ([link](https://www.addgene.org/kits/puf-assembly-kit/)). This was described in the paper:
 
 Modular assembly of designer PUF proteins for specific post-transcriptional regulation of endogenous RNA. Abil Z, Denard CA, Zhao H. J Biol Eng . 2014 Mar 1;8(1):7. doi: 10.1186/1754-1611-8-7. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24581042).
 
