@@ -5,7 +5,7 @@ Modular assembly of designer PUF proteins for specific post-transcriptional regu
 
 It identifies the required kit components for a desired fusion, as well as producing DNA sequences to permit direct synthesis of PUF domains of interest, either alone or as GFP10/11 fusions for split GFP reconstitution.
 
-**Note: this is a script I generated a number of years ago, in a spare moment and is provided without any guarantees the designed fusions will be functional!
+**Note: this is a script I generated a number of years ago, in a spare moment and is provided without any guarantees the designed fusions will be functional!**
 
 ## Use:
 For the target ACGTACGT the command to use this is:
