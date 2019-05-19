@@ -1,5 +1,9 @@
 # rnaPUFdomains
-Perl script for designing pumilio domains to bind specific RNA targets of interest
+Perl script for designing pumilio domains to bind specific RNA targets of interest. This is based around the sequences from the PUF assembly kit availible from Addgene ([link](https://www.addgene.org/kits/puf-assembly-kit/). This was described in the paper:
+
+Modular assembly of designer PUF proteins for specific post-transcriptional regulation of endogenous RNA. Abil Z, Denard CA, Zhao H. J Biol Eng . 2014 Mar 1;8(1):7. doi: 10.1186/1754-1611-8-7. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24581042).
+
+It identifies the required kit components for a desired fusion, as well as producing DNA sequences to permit direct synthesis of PUF domains of interest, either alone or as GFP10/11 fusions for split GFP reconstitution.
 
 **Note**: this is a script I generated a number of years ago, in a spare moment and is provided without any guarantees the designed fusions will be functional!
 
@@ -7,11 +11,6 @@ For the target ACGTACGT the command to use this is:
 ```perl
   perl GGPUF.pl ACGTACGT
 ```
-
-The script is based around the sequences from the PUF assembly kit availible from Addgene ([link](https://www.addgene.org/kits/puf-assembly-kit/). This was described in the paper:
-
-Modular assembly of designer PUF proteins for specific post-transcriptional regulation of endogenous RNA. Abil Z, Denard CA, Zhao H. J Biol Eng . 2014 Mar 1;8(1):7. doi: 10.1186/1754-1611-8-7. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24581042) .
-
 
 It provides 5 outputs:
 1. It returns your input sequence
