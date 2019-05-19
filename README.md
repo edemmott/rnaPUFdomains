@@ -17,6 +17,8 @@ For the target ACGTACGT the command to use this is:
   perl GGPUF.pl ACGTACGT
 ```
 
+The script will convert to upper case, as well as substitute T for U.
+
 It provides 5 outputs:
 1. It returns your input sequence
 2. It provides the PUF assembly kit plasmid identities required to construct the designed binding sequence by golden gate cloning using the PUF assembly kit.
